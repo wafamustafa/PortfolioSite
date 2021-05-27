@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--stylesheet-->
+        <link rel="stylesheet" href="/css/globalStyle.css">
+        <!--social icon references-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <title>Wafa's Portfolio</title>
+    </head>
+    <body>
+        <!--HEADER-->
+        <header class="header">
+            <nav class="nav grid">
+                <div>
+                    <a href="wafamustafa.com" class="navLogo">WM</a>
+                </div>
+                <div class="navMenu" id="nav-menu">
+                    <ul class="navList">
+                        <li class="navItem"><a href="#home" class="navLink active">Home</a></li>
+                        <li class="navItem"><a href="#about" class="navLink">About</a></li>
+                        <li class="navItem"><a href="#skills" class="navLink">Skills</a></li>
+                        <li class="navItem"><a href="#work" class="navLink">Work</a></li>
+                        <li class="navItem"><a href="#contact" class="navLink">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="navToggle" id="nav-toggle">
+                    <!--taken from https://boxicons.com/-->
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--HOME-->
+            <section class="home grid" id="home">
+                <div class="homeImg moving-glow">    
+                    <img class="imgClip" src="/images/home-pic.png" alt="Web developers image">
+                </div>
+                <div class="homeBody">
+                    <h1 class="homeTitle">Hello,<br>I'm <span class="homeTitle-color">Wafa</span><br><span id="homeTitle-type"></span></h1>
+                </div>
+                <div class="homeSocial">
+                    <a href="https://www.linkedin.com/in/wafamustafa/" class="homeSocial-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/wafamustafa" class="homeSocial-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+            </section>
+
+            <!--ABOUT-->
+            <section class="about section " id="about">
+                <h2 class="sectionTitle">About</h2>
+                <div class="aboutContainer grid">
+                    <div class="aboutContainer-img">
+                        <img class="imgClip" src="/images/about-pic.png" alt="">
+                    </div>
+                    <div>
+                        <h2 class="aboutSubtitle">I am Wafa</h2>
+                        <p class="aboutText">I’m an aspiring full-stack web developer with a background in marketing, project management and customer experience. I enjoy spending my days experimenting with HTML, CSS, and JQuery/JavaScript satisfying my passion for design; diving off the deep end into Php; and dabbling in different frameworks such as Laravel, React and .Net. I love building website that create a delightful and dynamic user experience.</p><br>
+                        <p class="aboutText">I have a curious mind and I love challenges that push me to venture out searching for answer to elevate my website functionality, UI and UX design. I’m constantly scouring the web for inspiration and researching new technologies to keep myself up-to-date with the ever so evolving tech industry. When I’m not going on and on about coding, design or neuromarketing, you’ll find me outdoors going on hikes to catch beautiful views and feel one with nature.</p>           
+                    </div>                                   
+                </div>
+            </section>
+            <!--add in skills sections-->
+            <section class="skills section" id="skills">
+                <h2 class="sectionTitle">Skills</h2>
+
+                <div class="skills__container grid">          
+                    <div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-data skills__icon'></i>
+                                <span class="skills__name">My SQL</span>
+                            </div>
+                            <div class="skills__bar skills__sql">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-git-repo-forked skills__icon' ></i>
+                                <span class="skills__name">Git</span>
+                            </div>
+                            <div class="skills__bar skills__git">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-bracket skills__icon' ></i>
+                                <span class="skills__name">Php</span>
+                            </div>
+                            <div class="skills__bar skills__php">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--PROJECTS-->
+            <section class="work section" id="work">
+                <h2 class="sectionTitle">Work</h2>
+
+                <div class="workContainer grid">
+                    <div class="workImg">
+                        <img src="/images/password_manager.png" alt="php project called password manager">
+                        <div class="workImg-overlay">
+                            <div class="overlay-text">
+                                <h3>Password Manager</h3>
+                                <h4>PHP, JavaScript, MySql</h4>
+                                <p>An app to help you manage your online passwords. In addition to managing your own passwords, this app allows you to share passwords with another user.</p>
+                                <br/><a href="passwordmanager.wafamustafa.com" class="button">Live View</a>
+                                <a href="weatherbeats.wafamustafa.com" class="button">GitHub</a>   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="workImg">
+                        <img src="/images/xml_ticket.png" alt="XML help desk ticketing system">
+                        <div class="workImg-overlay">
+                            <div class="overlay-text">
+                                <h3>XML Ticketing System</h3>
+                                <h4>PHP and XML</h4>
+                                <p>Helpdesk Ticketing system using XML to fetch data and display user's open tickets</p>
+                                <br/><a href="xmlticketsystem.wafamustafa.com" class="button">Live View</a>
+                                <a href="weatherbeats.wafamustafa.com" class="button">GitHub</a>   
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="workImg">
+                        <img src="/images/mexican_bubbas.png" alt="mexican resturant project">
+                        <div class="workImg-overlay">
+                            <div class="overlay-text">
+                                <h3>Mexican Bubbas</h3>
+                                <h4>HTML, CSS, JavaScript, JQuery</h4>
+                                <p>Mexican restaurant website that provides customer many services such as ordering food, booking events, viewing specials and many more</p>
+                                <br/><a href="restaurantproject.wafamustafa.com" class="button">Live View</a>
+                                <a href="weatherbeats.wafamustafa.com" class="button">GitHub</a>   
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="workImg">
+                        <img src="/images/weather_beats.png" alt="weather beats Api project">
+                        <div class="workImg-overlay">
+                            <div class="overlay-text">
+                                <h3>Weather Beats</h3>
+                                <h4>JavaScript, OpenWeatherAPI, AudioDbAPI</h4>
+                                <p>A Weather app that provides users their local weather and information on trending music by country to get an up beat start!</p>
+                                <br/><a href="weatherbeats.wafamustafa.com" class="button">Live View</a>
+                                <a href="weatherbeats.wafamustafa.com" class="button">GitHub</a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--CONTACT-->
+            <section class="contact" id="contact">
+                <h2 class="sectionTitle">Contact</h2>
+                <div class="contactContainer">
+                    <p><span class="contactIcon"><i class='bx bx-phone-call' ></i></span>(416) 878-0220</p>
+                    <p><span class="contactIcon"><i class='bx bx-mail-send' ></i></span>wafamustafak@gmail.com</p>
+                </div>
+                <div class="contactSocial">
+                    <a href="https://github.com/wafamustafa" class="contactIcon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/in/wafamustafa/" class="contactIcon"><i class='bx bxl-linkedin'></i></a>  
+                </div>
+            </section>
+        </main>
+
+        <!--FOOTER-->
+        <footer class="footer">
+            <p class="footerTitle">Wafa Mustafa</p>
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
+        <!--package used for scroll-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--main script -->
+        <script src="/scripts/globalScript.js"></script>
+    </body>
+</html>
