@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="http://www.wafamustafa.com/">
-    <img src="images/sitelogo.png" alt="Logo" width="80" height="80">
+    <img src="./images/sitelogo.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Portfolio Site</h3>
 </p>
