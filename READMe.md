@@ -9,10 +9,11 @@
 </p>
 
 <!-- ABOUT THE PROJECT -->
-<p align="center">
-    <h2>Project Description</h2>
-    <p>Personal portfolio website built from scratch using HTML, CSS, and JavaScript. The website was built starting with mobile first design to keep up with responsiveness. It was a great practice for BEM naming convention and gird layout. Package was used for seamless scroll reveal and few animations done using JavaScript. </p>
-</p>
+
+## Project Description
+
+Personal portfolio website built from scratch using HTML, CSS, and JavaScript. The website was built starting with mobile first design to keep up with responsiveness. It was a great practice for BEM naming convention and gird layout. Package was used for seamless scroll reveal and few animations done using JavaScript.
+
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
